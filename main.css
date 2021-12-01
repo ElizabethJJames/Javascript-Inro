@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.javascriptOutput {
+    border: blueviolet 5px solid;
+    background: rgb(167, 116, 214);
+    color: rgb(59, 58, 58);
+    min-height: 200px;
+    min-width: 500px;
+}
+#initialJSFunction {
+    background-color: rgb(167, 116, 214);
+    border: blueviolet 2px solid;
+    border-radius: 5px;
+    box-shadow: blueviolet 0px 1px 20px;
+}
